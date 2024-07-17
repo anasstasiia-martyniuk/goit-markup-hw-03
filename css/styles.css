@@ -5,6 +5,10 @@ body {
 }
 h1, h2, h3{
     color: #2e2f42;
+    margin: 0;
+}
+p{
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -13,10 +17,26 @@ a {
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+.container {
+    max-width: 1158px;
+    padding-left:
+    padding-right: 
+    margin-left: 
+    margin-right: 
+}
+.section {
+
 }
 
 /* Header */
 .menu{
+    border-bottom: 1px solid #e7e9fc;
 }
 .menu-list-item {
     font-weight: 500;
