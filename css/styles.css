@@ -26,15 +26,15 @@ img {
 .container {
     display: flex;
     max-width: 1158px;
-    padding: 0 15;
-    margin: auto 0;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-/* Header */
+/*#region Header */
 .menu{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -107,9 +107,13 @@ header .container {
 .logo span{
     color:#2e2f42;
 }
-
-/* Order Service */
-
+/* #endregion Header */
+/*#region Order Service */
+.order-service .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .order-service {
     background-color: #2E2F42;
 }
@@ -119,7 +123,11 @@ header .container {
     font-size: 56px;
     letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.07
+    line-height: 1.07;
+    width: 496px;
+
+    margin-top: 188px;
+    margin-bottom: 48px;
 }
 .order-service-button {
     background-color: #4d5ae5;
@@ -130,36 +138,81 @@ header .container {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor:pointer;
+
+    width: 169px;
+    height: 56px;
+    margin-top: 0;
+    margin-bottom: 188px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
     background-color: #404BBF;
 }
+/* #endregion Order Service */
+/*#region Advantages */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advantages .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 
-/* Advantages */
-
+}
+.advantages-list-item {
+   flex-basis: calc((100% - 72px) / 4);
+}
 .advantages-titles {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
 
+    margin-bottom: 8px;
+}
 .advantages-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+    margin-top: 0px;
 }
-/* Our Team */
+
+/* #endregion Advantages */
+/* #region Our Team */
 
 .our-team {
     background-color: #F4F4FD;
 }
+.our-team .container {
+    display: flex;
+    flex-direction: row;
+}
 .our-team-list {
+    display: flex;
+    gap: 24px;
+}
+.our-team-list-item {
     background-color: #FFFFFF;
+    margin-top: 232px;
+    margin-bottom: 120px;
 }
  .our-team-title {
     font-weight: 700;
@@ -169,6 +222,9 @@ header .container {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+
+    margin-top: 120px;
+    margin-bottom: 72px;
  }
 .our-team-names{ 
     font-weight: 500;
@@ -186,7 +242,7 @@ header .container {
     text-align: center;
     color: #434455;
  }
-
+/* #endregion Our Team */
  /* Our Portfolio */
 
 .our-portfolio-title{
