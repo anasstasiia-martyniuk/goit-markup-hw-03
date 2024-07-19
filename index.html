@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,37 +24,37 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- #region header -->
     <header class="menu">
       <div class="container">
-        <div class="header-container">
-          <nav class="nav-container">
-            <a href="./index.html" class="logo"> Web<span>Studio</span> </a>
-            <ul class="menu-list">
-              <li><a href="./index.html" class="menu-list-item">Studio</a></li>
-              <li><a href="" class="menu-list-item">Portfolio</a></li>
-              <li><a href="" class="menu-list-item">Contacts</a></li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="address-container">
-              <li>
-                <a href="mailto:info@devstudio.com" class="menu-contacts"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+110001111111" class="menu-contacts"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+        <nav class="nav-container">
+          <a href="./index.html" class="logo"> Web<span>Studio</span> </a>
+          <ul class="menu-list">
+            <li><a href="./index.html" class="menu-list-item">Studio</a></li>
+            <li><a href="" class="menu-list-item">Portfolio</a></li>
+            <li><a href="" class="menu-list-item">Contacts</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="address-container">
+            <li>
+              <a href="mailto:info@devstudio.com" class="menu-contacts"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="menu-contacts"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
-
+    <!-- #endregion header -->
+    <!-- #region main -->
     <main>
-      <!-- Order Service -->
+      <!-- #region Order Service -->
       <section class="order-service" class="section">
         <div class="container">
           <h1 class="order-service-title">
@@ -58,7 +65,7 @@
           </button>
         </div>
       </section>
-
+      <!-- #endregion Order Service -->
       <!-- Advantages -->
       <section class="section">
         <div class="container">
@@ -204,7 +211,8 @@
         </div>
       </section>
     </main>
-
+    <!-- #endregion /main -->
+    <!-- #region footer -->
     <footer class="page-footer">
       <div class="container">
         <a href="./index.html" class="logo-footer"> Web<span>Studio</span> </a>
@@ -214,5 +222,6 @@
         </p>
       </div>
     </footer>
+    <!-- #endregion /footer -->
   </body>
 </html>
