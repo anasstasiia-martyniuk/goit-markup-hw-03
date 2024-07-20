@@ -254,6 +254,7 @@ header .container {
 }
 .our-portfolio-list-item {
     flex-basis: calc((100% - 72px) / 4);
+    margin-bottom: 24px;
 }
 .our-portfolio-title{
     font-weight: 700;
