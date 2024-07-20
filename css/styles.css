@@ -113,6 +113,7 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 188px 0;
 }
 .order-service {
     background-color: #2E2F42;
@@ -124,9 +125,8 @@ header .container {
     letter-spacing: 0.02em;
     text-align: center;
     line-height: 1.07;
-    width: 496px;
+    max-width: 496px;
 
-    margin-top: 188px;
     margin-bottom: 48px;
 }
 .order-service-button {
@@ -138,11 +138,13 @@ header .container {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor:pointer;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
 
     width: 169px;
     height: 56px;
     margin-top: 0;
-    margin-bottom: 188px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
@@ -164,8 +166,7 @@ header .container {
 .advantages .container {
     display: flex;
     flex-direction: row;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 .advantages-list {
     display: flex;
@@ -202,17 +203,18 @@ header .container {
     background-color: #F4F4FD;
 }
 .our-team .container {
+    padding: 120px 0;
     display: flex;
-    flex-direction: row;
 }
 .our-team-list {
     display: flex;
+    flex-direction: row;
     gap: 24px;
 }
 .our-team-list-item {
     background-color: #FFFFFF;
-    margin-top: 232px;
-    margin-bottom: 120px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
  .our-team-title {
     font-weight: 700;
@@ -222,9 +224,10 @@ header .container {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-
-    margin-top: 120px;
-    margin-bottom: 72px;
+    max-width: 162px;
+ }
+ .our-team-information {
+    padding: 32px 0;
  }
 .our-team-names{ 
     font-weight: 500;
@@ -282,12 +285,21 @@ header .container {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
+    margin-bottom: 16px;
+    display: flex;
 }
 .logo-footer span{
     color: #f4f4fd;
 }
 .page-footer {
     background-color: #2E2F42;
+    padding: 120px 0;
+    margin-top: 0;
+}
+.page-footer .container{
+    display: flex;
+    flex-direction: column;
 }
 .page-footer-text {
     font-weight: 400;
@@ -295,4 +307,6 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    display: flex;
 }
