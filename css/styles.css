@@ -304,6 +304,7 @@ header .container {
 
     margin-bottom: 16px;
     display: flex;
+    display: inline-block;
 }
 .logo-footer span{
     color: #f4f4fd;
@@ -312,7 +313,6 @@ header .container {
     background-color: #2E2F42;
     padding: 100px 0;
     margin-top: 0;
-    display: inline-block;
 }
 .page-footer-text {
     font-weight: 400;
