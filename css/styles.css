@@ -250,11 +250,11 @@ header .container {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     padding: 0;
 }
 .our-portfolio-list-item {
     flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 24px;
 }
 .our-portfolio-title{
     font-weight: 700;
@@ -264,14 +264,13 @@ header .container {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 75px;
+    margin-bottom: 72px;
 }
 .our-portfolio-information {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 0;
-    padding-left: 16px;
+    padding: 32px 16px;
 }
 .our-portfolio-titles {
     font-weight: 500;
@@ -292,7 +291,7 @@ header .container {
     color: #FFFFFF;
 }
 /* #endregion Our Portfolio */
-/* Footer */
+/* #region Footer */
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -311,12 +310,11 @@ header .container {
 }
 .page-footer {
     background-color: #2E2F42;
-    padding: 120px 0;
+    padding: 100px 0;
     margin-top: 0;
 }
 .page-footer .container{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 .page-footer-text {
     font-weight: 400;
@@ -325,5 +323,5 @@ header .container {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    display: flex;
 }
+/* #endregion Footer */
