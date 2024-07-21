@@ -44,10 +44,10 @@ header .container {
 }
 .nav-container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 40px;
     align-items: center;
+}
+.address-box {
+    margin-left: auto;
 }
 .address-container {
     display: flex;
@@ -58,7 +58,6 @@ header .container {
 .menu-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 .menu-list-item {
     font-weight: 500;
